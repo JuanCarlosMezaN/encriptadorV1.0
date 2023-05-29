@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.boody{
+    background: #F3F5FC;
+}
+
+.contenedor{
+    width: 960px;
+    height: 650px;
+    margin: auto;
+
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+.izquierda{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    
+}
+
+.derecha{
+    float: right;
+    border-radius: 24px;
+    width: 30%;
+    height: auto;
+}
+
+.contenedorBotones{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.logo {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.textarea{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size:large;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.derecha img{
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    background: white;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+#resultadotexto{
+    float: left;
+    text-align: center;
+    height: 60%;
+    border: none;
+    outline: 0;
+    font-size: large;
+    padding: 20px;
+    resize: none;
+}
+
+
+#botonEncriptar, #botonDesencriptar, #botonCopiar{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#botonEncriptar{
+    background: #0A3871;
+    color: #F3F5FC;
+    margin-left: 50%;
+    border: none;
+}
+
+#botonDesencriptar{
+    background: #F3F5FC;
+    color: #0A3871;
+    margin-left: 10%;
+    border: 1px #0A3871;
+   
+}
+
+#botonCopiar{
+    display: none;
+    margin-top: 5px;
+    background: #F3F5FC;
+    margin-left: 150px;
+}
